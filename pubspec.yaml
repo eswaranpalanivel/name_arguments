@@ -49,6 +49,7 @@ flutter:
     - assets/images/background_face.png
     - assets/images/ocard_logo-01.png
     - assets/images/ola_logo_1-01.png
+    - assets/images/ola_tag-01.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

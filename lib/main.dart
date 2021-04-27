@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:name_arguments/screens/LoginPageScreen.dart';
 import 'package:name_arguments/screens/SecondScreen.dart';
+import 'package:name_arguments/screens/MainPageMenu.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -20,8 +22,10 @@ class MyApp extends StatelessWidget {
       ),
      home: LoginPageScreen(),
       routes: {
-        LoginPageScreen.routeName : (context)=>LoginPageScreen(),
-        SecondScreen.routeName : (context)=>SecondScreen(),
+        LoginPageScreen.routeName : (context) => LoginPageScreen(),
+        SecondScreen.routeName : (context) => SecondScreen(),
+        MainPageMenu.routeName : (context) => MainPageMenu(),
+        //SecondScreen.routeName : (context)=>SecondScreen(),
       },
 
     );
